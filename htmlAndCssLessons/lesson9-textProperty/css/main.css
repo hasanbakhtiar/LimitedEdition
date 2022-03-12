@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('style.css');
+.my-text{
+    font-size: 20px;
+    /* color: white; */
+    /* background-color: grey; */
+    /* font-weight: bolder; */
+    /* font-style:italic; */
+    /* line-height: 20px; */
+    /* letter-spacing: 100px; */
+    /* text-transform: uppercase; */
+    /* text-decoration: underline; */
+    /* font-family: 'Courier New', Courier, monospace,sans-serif; */
+    font-family: 'Parisienne', cursive;
+}
+.fa-twitter{
+    color: red;
+}

@@ -1,0 +1,41 @@
+/* .box{
+    display: block;
+    display: inline;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+} */
+
+.new-box{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    /* xaricden mesafe vermek uchun margin, daxilden mesafe vermek uchun padding  */
+    /* margin-top: 50px; */
+    /* margin-bottom: 100px; */
+    /* margin-left: 20px;
+    margin-right: 100px;
+    display: inline-block; */
+    /* margin: 100px 50px 20px 10px; */
+      /* padding-top: 50px; */
+    /* padding-bottom: 100px; */
+    /* padding-left: 20px;
+    padding-right: 100px;
+    display: inline-block; */
+    /* padding: 100px 50px 20px 10px;
+    display: inline; */
+}
+
+p{
+  background-color: brown;
+  width: 100%;
+  height: 20vh; /*viewport height*/
+
+  color: white;
+}
+p span{
+  font-size: 2em;
+  /* 1em and 1rem = 16px */
+  color: green;
+}

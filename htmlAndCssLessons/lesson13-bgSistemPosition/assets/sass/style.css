@@ -1,0 +1,33 @@
+body {
+  height: 200vh;
+}
+
+.bg-img {
+  width: 500px;
+  height: 500px;
+  background-image: url("../img/img1.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-img .box {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg-img .box h1 {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

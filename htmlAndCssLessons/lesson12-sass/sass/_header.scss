@@ -1,0 +1,30 @@
+
+header {
+    width: 100%;
+    height: 100px;
+  @include etrafi();
+    background-color: $kamran;
+  
+    .logo {
+      width: 30%;
+      h1 {
+        color: red;
+        font-family: $yazi;
+      }
+    }
+    nav {
+      width: 70%;
+      ul{
+          width: 100%;
+        @include etrafi();
+  
+          li{
+              a{
+                      color: red;
+                      text-decoration: none;
+              }
+          }
+      }
+    }
+  }
+  

@@ -1,0 +1,25 @@
+body{
+    height: 200vh;
+}
+
+.bg-img{
+    width: 500px;
+        height: 500px;
+        background-image: url('../img/img1.jpg');
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        .box{
+            width: 500px;
+            height: 500px;
+            background-color: rgba($color: #000000, $alpha: .7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            color: #fff;
+        }
+        
+    }
+}

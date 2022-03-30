@@ -1,0 +1,83 @@
+.box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  font-size: 25px;
+  color: #fff;
+  -webkit-animation: animasiya 15s infinite;
+          animation: animasiya 15s infinite;
+}
+
+@-webkit-keyframes animasiya {
+  0% {
+    left: 0px;
+    top: 0px;
+    background-color: red;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    left: 500px;
+    top: 0px;
+    background-color: #59008d;
+    -webkit-transform: rotate(100deg);
+            transform: rotate(100deg);
+  }
+  50% {
+    left: 500px;
+    top: 50vh;
+    background-color: #ffbf10;
+    -webkit-transform: rotate(130deg);
+            transform: rotate(130deg);
+  }
+  75% {
+    left: 0px;
+    top: 500px;
+    background-color: #df3e7c;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    background-color: #9bfc00;
+  }
+}
+
+@keyframes animasiya {
+  0% {
+    left: 0px;
+    top: 0px;
+    background-color: red;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    left: 500px;
+    top: 0px;
+    background-color: #59008d;
+    -webkit-transform: rotate(100deg);
+            transform: rotate(100deg);
+  }
+  50% {
+    left: 500px;
+    top: 50vh;
+    background-color: #ffbf10;
+    -webkit-transform: rotate(130deg);
+            transform: rotate(130deg);
+  }
+  75% {
+    left: 0px;
+    top: 500px;
+    background-color: #df3e7c;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    background-color: #9bfc00;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+.cycle{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 3px solid #000;
+    border-radius: 50%;
+    .cycle-box{
+        position: absolute;
+        left:35px;
+        top: 2px;
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        border-radius: 50%;
+        animation: doit 3s infinite;
+    }
+    @keyframes doit {
+        0%{
+            left:35px;
+            top: 2px;
+        }
+        // 5%{
+        //     left:40px;
+        //     top: 0px;
+        // }
+        // 10%{
+        //     left:50px;
+        //     top: -5px;
+        // }
+
+        15%{
+            left:120px;
+            top: -20px;
+        }
+
+        30%{
+            left:120px;
+            top: -20px;
+        }
+    }
+}

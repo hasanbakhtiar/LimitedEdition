@@ -1,0 +1,27 @@
+.box{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 25px;
+    color: #fff;
+    // clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    // animation-name: animasiya;
+    // animation-duration: 1s;
+    // animation-iteration-count: infinite;
+    // animation-iteration-count: 2;
+    // animation-delay: 2s;
+    animation: animasiya 15s infinite;
+}
+@keyframes animasiya{
+    // from{left: 0px;}
+    // to{left: 500px;}
+
+    0%{left: 0px;top: 0px;background-color: red; transform: rotate(0deg);}
+    25%{left: 500px;top: 0px;background-color: rgb(89, 0, 141); transform: rotate(100deg);}
+    50%{left: 500px;top: 50vh;background-color: rgb(255, 191, 16);transform: rotate(130deg);}
+    75%{left: 0px;top: 500px;background-color: rgb(223, 62, 124);transform: rotate(0deg);}
+    100%{left: 0px;top: 0px;background-color: rgb(155, 252, 0);}
+
+
+}

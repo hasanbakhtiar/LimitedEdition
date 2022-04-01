@@ -1,0 +1,16 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+}
+
+.mybox{
+    background-color: brown;
+    border-color:  brown;
+    &:hover{
+        background-color: black;
+    border-color:  rgb(0, 0, 0);
+
+    }
+}

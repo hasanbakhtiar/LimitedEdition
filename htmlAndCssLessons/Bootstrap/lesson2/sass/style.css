@@ -1,0 +1,17 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 5px;
+}
+
+.mybox {
+  background-color: brown;
+  border-color: brown;
+}
+
+.mybox:hover {
+  background-color: black;
+  border-color: black;
+}
+/*# sourceMappingURL=style.css.map */

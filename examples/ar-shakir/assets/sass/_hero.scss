@@ -1,0 +1,51 @@
+.bg-img{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/hero-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    .btn-orange{
+        background-color: $brand-orange;
+        color: #fff;
+    }
+}
+
+.hero-text-con{
+    height: 100vh;
+    width: 90%;
+    .hero-text{
+        height: 100vh;
+        width: 100%;
+        h1{
+            font-size: 50px;
+        }
+        .hero-form{
+            // border: 1px solid #000;
+            width: 100%;
+            height: 70px;
+            background-color: #fff;
+            input{
+                height: 50px;
+                width: 60%;
+                border: none;
+                &:focus-visible{
+                    outline: none;
+                }
+            }
+            .hero-btn{
+                width: 130px;
+                height: 50px;
+                border: none;
+                background-color: #1B1C31;
+                color: #fff;
+                font-weight: bolder;
+            }
+         
+            
+        }
+        i{
+            color: $brand-orange;
+        }
+    }
+}
+

@@ -1,0 +1,62 @@
+.bg-img {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/hero-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-img .btn-orange {
+  background-color: #F57059;
+  color: #fff;
+}
+
+.hero-text-con {
+  height: 100vh;
+  width: 90%;
+}
+
+.hero-text-con .hero-text {
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-text-con .hero-text h1 {
+  font-size: 50px;
+}
+
+.hero-text-con .hero-text .hero-form {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+}
+
+.hero-text-con .hero-text .hero-form input {
+  height: 50px;
+  width: 60%;
+  border: none;
+}
+
+.hero-text-con .hero-text .hero-form input:focus-visible {
+  outline: none;
+}
+
+.hero-text-con .hero-text .hero-form .hero-btn {
+  width: 130px;
+  height: 50px;
+  border: none;
+  background-color: #1B1C31;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.hero-text-con .hero-text i {
+  color: #F57059;
+}
+
+@media (max-width: 750px) {
+  .hero-img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

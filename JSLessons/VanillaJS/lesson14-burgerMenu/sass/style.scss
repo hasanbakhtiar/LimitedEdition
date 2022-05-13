@@ -1,0 +1,44 @@
+#burger{
+    border: 1px solid #000;
+    width: 50%;
+    height: 70vh;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    ul{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: #000;
+
+            }
+        }
+    }
+}
+
+button{
+    background-color: #000;
+    color: #eee;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+
+
+.hide{
+    transition: 1s;
+    transform: translateX(-500px);
+}
+.show{
+    transition: 1s;
+    transform: translateX(0px);
+
+}

@@ -1,0 +1,19 @@
+{
+    "Car":[
+        {
+            "name":"BMW",
+            "model":"X5",
+            "year":1995
+        },
+        {
+            "name":"Audi",
+            "model":"R5",
+            "year":2000
+        },
+        {
+            "name":"BMW",
+            "model":"X7",
+            "year":2022
+        }
+    ]
+}

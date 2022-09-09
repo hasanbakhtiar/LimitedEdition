@@ -1,0 +1,15 @@
+body.light {
+  color: #757575;
+  background-color: #eee;
+}
+body.light h1.test {
+  color: red;
+}
+
+body.dark {
+  color: #eee;
+  background-color: #757575;
+}
+body.dark h1.test {
+  color: green;
+}/*# sourceMappingURL=style.css.map */

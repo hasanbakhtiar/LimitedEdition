@@ -1,0 +1,16 @@
+body.light{
+    color: #757575;
+    background-color: #eee;
+    h1.test{
+        color: red;
+    }
+    
+}
+body.dark{
+    color: #eee;
+    background-color: #757575;
+    h1.test{
+        color: green;
+    }
+}
+
